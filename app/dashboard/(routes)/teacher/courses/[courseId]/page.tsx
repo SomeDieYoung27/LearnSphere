@@ -16,7 +16,7 @@ import { PriceForm } from "./_components/price-form";
 import { AttachmentForm } from "./_components/attachment-form";
 import { ChaptersForm } from "./_components/chapters-form";
 import { Banner } from "@/components/banner";
-import { Actions } from "./chapters/[chapterId]/_components/actions";
+import { Actions } from "./chapter/[chapterId]/_components/actions";
 
 const CourseIdPage = async ({ params }: { params: { courseId: string } }) => {
   const { userId } = auth();
