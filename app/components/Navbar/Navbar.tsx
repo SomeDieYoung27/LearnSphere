@@ -29,7 +29,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
-    <div className="bg-[#FCF6EF]">
+    <div className="bg-[#005f73]">
       <div className="mx-auto max-w-7xl   px-6 lg:px-8">
         <div className="relative flex h-20 items-center justify-between">
           <div className="flex flex-1 items-center   sm:justify-start">
